@@ -1,0 +1,28 @@
+{
+  "clinic": {
+    "name": "Klinik Pergigian Dentabay Setapak",
+    "address": "A-1-0-0 Diamond Square Jalan 2/50, OFF, Jln Gombak, 53000, Federal Territory of Kuala Lumpur",
+    "phone": "011-11524640",
+    "email": "dbst@gmail.com",
+    "logo_path": ""
+  },
+  "database": {
+    "source": "mysql",
+    "backup_path": "C:/Programming/receipt_dentabay/backup_clinicdb.sql",
+    "cache_path": "data/clinic_cache.sqlite",
+    "mysql_host": "localhost",
+    "mysql_port": 3306,
+    "mysql_user": "root",
+    "mysql_password": "odinsa",
+    "mysql_database": "clinicdb"
+  },
+  "receipt": {
+    "output_directory": "receipts"
+  },
+  "email": {
+    "sender": "klinikpergigiandentabay@gmail.com",
+    "app_password": "tkkx lnzc jfte wmes",
+    "subject": "Clinic Receipt",
+    "body": "Dear {patient_name},\n\nPlease find attached your receipt {receipt_id}.\n\nThank you.\n"
+  }
+}
